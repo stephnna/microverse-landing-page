@@ -1,0 +1,138 @@
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 0;
+}
+
+
+.first-section{
+  display: flex;
+flex-direction: column;
+gap: 8px;
+background: #1F2937;
+padding: 64px;
+justify-content: space-between;
+
+}
+.top-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left, .header-right{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+
+}
+.title{
+  display: flex;
+}
+.main-heading{
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+ul{
+  list-style-type: none;
+}
+.header-logo{
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+a, .small-heading {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+.first-button {
+  background: #3882F6;
+}
+/* Second Section*/
+
+ 
+ .container-box{
+   display: flex;
+   justify-content: center;
+   gap: 64px;  
+ }
+ .customize{
+  text-align: center;
+}
+
+.info{
+  max-width: 200px;
+ 
+}
+ .box{
+  border: 2px solid #3882F6;
+  border-radius: 12px;
+  height: 160px;
+  width: 160px;
+ }
+
+ .text{
+   max-width: 160px;
+   text-align: justify;
+   color: #1F2937;
+ }
+ 
+.third-section{
+  background: #E7E5EB;
+  /* height: 300px; */
+}
+
+.quote{
+  padding-top: 32px;
+  font-size: 36px;
+  color: #1F2937;
+  padding-left: 300px;
+  padding-right: 300px;
+  }
+  .cite{
+    padding-left: 718px;
+    
+    padding-bottom: 32px;
+    
+    /* font-weight: px; */
+  }
+  /* Forth Section */
+  .fourth-section{
+    display: flex;
+    justify-content: space-between;
+    background: #3882F6;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-right: 48px;
+    padding-left: 48px;
+    /* padding-top: 16px;
+    padding-bottom: 16px; */
+    border-radius: 16px;
+    color: #F9FAF8;
+  }
+
+  .call-to-action{
+    display: flex;
+    align-items: center;
+  }
+
+  .second-button{
+    display: flex;
+    align-items: center;
+    /* border-radius: 16px;
+    border: 2px solid #F9FAF8; */
+  }
+  .footer{
+    background:#1F2937;
+    padding-top: 16px;
+    padding-bottom:  16px;
+    text-align: center; 
+    color: #E5E7EB;   
+  }
+  /* .call-to-action{
+    color: #F9FAF8;
+  }
+  */
+  
