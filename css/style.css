@@ -52,6 +52,11 @@ a, .small-heading {
   border-radius: 8px;
   border: 2px solid #3882F6;
 }
+
+img{
+  width: 432px;
+  height: auto;
+}
 /* Second Section*/
 
  
@@ -85,22 +90,28 @@ a, .small-heading {
   background: #E7E5EB;      
   font-size: 18px;
   color: #1F2937;
-  height: 350px;     
-}    
+  max-height: 350px;   
+  padding-left: 400px;
+  padding-right: 400px;    
+  padding-top: 60px;
+  padding-bottom: 60px;
+} 
+.cite { 
+  padding-left: 300px;  
+}
+
  
   /* Forth Section */
   .fourth-section{
-    display: flex;
+    display: flex;    
     align-items: center;
     justify-content: center;     
-    /* margin-top: 150px;
-    margin-bottom: 150px;    */
     height: 300px;
   }
   .background{  
-    display: flex;
-    justify-content: space-between; 
-    background: #3882F6;
+      display: flex;     
+  justify-content: space-between; 
+  background: #3882F6;
    width: 700px;
   height: 100px;
   border-radius: 16px;
@@ -118,7 +129,7 @@ a, .small-heading {
     color:  #F9FAF8;
     border: 1px solid #F9FAF8;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: bold;   
   }
 
   /* footer */
@@ -129,8 +140,5 @@ a, .small-heading {
     text-align: center; 
     color: #E5E7EB;   
   }
-  /* .call-to-action{
-    color: #F9FAF8;
-  }
-  */
+  
   
