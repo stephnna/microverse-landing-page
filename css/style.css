@@ -1,6 +1,8 @@
 body{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 margin: 0;
+display: flex;
+flex-direction: column;
 }
 
 
@@ -16,6 +18,10 @@ justify-content: space-between;
 .top-header{
   display: flex;
   justify-content: space-between;
+}
+.header-logo{
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 .header-left, .header-right{
@@ -36,10 +42,6 @@ justify-content: space-between;
 ul{
   list-style-type: none;
 }
-.header-logo{
-  font-size: 24px;
-  color: #F9FAF8;
-}
 
 a, .small-heading {
   font-size: 18px;
@@ -47,6 +49,8 @@ a, .small-heading {
 }
 .first-button {
   background: #3882F6;
+  border-radius: 8px;
+  border: 2px solid #3882F6;
 }
 /* Second Section*/
 
@@ -77,53 +81,47 @@ a, .small-heading {
    color: #1F2937;
  }
  
-.third-section{
-  background: #E7E5EB;
-  /* height: 300px; */
-}
-
-.quote{
-  padding-top: 32px;
-  font-size: 36px;
+.third-section{  
+  background: #E7E5EB;      
+  font-size: 18px;
   color: #1F2937;
-  padding-left: 300px;
-  padding-right: 300px;
-  }
-  .cite{
-    padding-left: 718px;
-    
-    padding-bottom: 32px;
-    
-    /* font-weight: px; */
-  }
+  height: 350px;     
+}    
+ 
   /* Forth Section */
   .fourth-section{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;     
+    /* margin-top: 150px;
+    margin-bottom: 150px;    */
+    height: 300px;
+  }
+  .background{  
+    display: flex;
+    justify-content: space-between; 
     background: #3882F6;
-    margin-right: 400px;
-    margin-left: 400px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-right: 48px;
-    padding-left: 48px;
-    /* padding-top: 16px;
-    padding-bottom: 16px; */
-    border-radius: 16px;
-    color: #F9FAF8;
+   width: 700px;
+  height: 100px;
+  border-radius: 16px;
+  color: #F9FAF8;
+  padding-right: 64px;
+  padding-left: 64px;
+    }
+
+  .call{
+    font-weight: bold;
+  }  
+
+  .right-button{
+    background: #3882F6;
+    color:  #F9FAF8;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    font-weight: bold;
   }
 
-  .call-to-action{
-    display: flex;
-    align-items: center;
-  }
-
-  .second-button{
-    display: flex;
-    align-items: center;
-    /* border-radius: 16px;
-    border: 2px solid #F9FAF8; */
-  }
+  /* footer */
   .footer{
     background:#1F2937;
     padding-top: 16px;
