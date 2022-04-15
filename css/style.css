@@ -88,13 +88,10 @@ img{
   color: #1F2937;
   max-height: auto;
   max-width: 100%;   
-  padding-left: 400px;
-  padding-right: 400px;    
-  padding-top: 60px;
-  padding-bottom: 60px;
+  
 } 
 .cite { 
-  padding-left: 300px;  
+  text-align: right;  
 }
 
  
