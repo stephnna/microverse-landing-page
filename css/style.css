@@ -85,7 +85,8 @@ img{
   background: #E7E5EB;      
   font-size: 18px;
   color: #1F2937;
-  max-height: 350px;   
+  max-height: auto;
+  max-width: 100%;   
   padding-left: 400px;
   padding-right: 400px;    
   padding-top: 60px;
