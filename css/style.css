@@ -51,7 +51,7 @@ a, .small-heading {
 }
 
 img{
-  width: 432px;
+  max-width: 100%;
   height: auto;
 }
 /* Second Section*/ 
